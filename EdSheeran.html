@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ed Sheeran</title>
+    <script
+      src="https://kit.fontawesome.com/c31fe5fadb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="nav-left">
+        <ul class="nav-list-left">
+          <li>
+            <a href="index.html"
+              ><img
+                class="image"
+                src="https://pbs.twimg.com/profile_images/719242138488217600/17In6aLV_400x400.jpg"
+                alt="nav-logo"
+            /></a>
+          </li>
+          <li>Favourites</li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <ul class="nav-list-right">
+          <li>
+            <form action="">
+              <input type="search" placeholder="Search" />
+              <span id="search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <span id="microphone"
+                ><i class="fa-solid fa-microphone"></i
+              ></span>
+            </form>
+          </li>
+          <li>
+            <span id="bell"><i class="fa-solid fa-bell"></i></span>
+          </li>
+          <li>
+            <img
+              class="image"
+              src="https://images.pexels.com/photos/4061349/pexels-photo-4061349.jpeg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+
+      <!-- Hamburger Menu -->
+      <div id="hamburger">
+        <a href="#hamburger-content"><i class="fa-solid fa-3x fa-bars"></i></a>
+      </div>
+
+      <div id="hamburger-content">
+        <a href="#">X</a>
+        <ul id="hamb-list">
+          <li>Favourites</li>
+          <hr />
+          <li><i id="bell" class="fa-solid fa-2x fa-bell"></i></li>
+          <li>
+            <form action="">
+              <input type="search" placeholder="Search" />
+              <span id="search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <span id="microphone"
+                ><i class="fa-solid fa-microphone"></i
+              ></span>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- BOTTOM SECTION -->
+    <div class="bottom">
+      <div class="current-song">
+        <div class="artist-details">
+          <span>
+            <img src="images/justin.jpg" alt="let-me-love-you" />
+          </span>
+          <span class="song-artist">
+            <span>Let Me Love You</span>
+            <span class="grey">Justin Bieber</span>
+          </span>
+          <span>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ban"></i>
+          </span>
+        </div>
+        <div class="song-playing">
+          <div class="play-pause">
+            <span><i class="fa-solid fa-shuffle"></i></span>
+            <span><i class="fa-solid fa-backward-step"></i></span>
+            <span><i class="fa-regular fa-2x fa-circle-pause"></i></span>
+            <span><i class="fa-solid fa-forward-step"></i></span>
+            <span><i class="fa-solid fa-repeat"></i></span>
+          </div>
+          <div class="range">
+            <span>2:41</span>
+            <span><input type="range" /></span>
+            <span>5:22</span>
+          </div>
+        </div>
+        <div class="volume">
+          <span><i class="fa-solid fa-list"></i></span>
+          <span><i class="fa-solid fa-computer"></i></span>
+          <span><i class="fa-solid fa-volume-high"></i></span>
+          <span><input type="range" /></span>
+          <span
+            ><i class="fa-solid fa-up-right-and-down-left-from-center"></i
+          ></span>
+        </div>
+      </div>
+      <!-- <a id="close" href="#">X</a> -->
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main id="artist">
+      <div id="about-artist">
+        <img src="images/ED-SHEERAN.jpg" alt="Ed Sheeran" />
+        <div class="bio">
+          <h2>Ed Sheeran</h2>
+          <span class="grey">English singer-songwriter</span>
+          <p>
+            Sheeran has sold more than 150 million records worldwide, making him
+            one of the world's best-selling music artists. He has 84.5 million
+            RIAA-certified units in the US, and two of his albums are in the
+            list of the best-selling albums in UK chart history. In December
+            2019, the Official Charts Company named him artist of the decade,
+            with the most combined success in the UK album and singles charts in
+            the 2010s.
+          </p>
+          <button style="border: 0;" class="play-all">Play All</button>
+          <button style="background-color: inherit; border: 0;" class="follow">
+            Follow
+          </button>
+          <p>
+            <span style="border-right: 2px solid white; padding-right: 5px;"
+              >247 Tracks</span
+            >
+            <span>128 Albums</span>
+          </p>
+          <span class="followers">851 Followers</span>
+        </div>
+      </div>
+
+      <!-- SONGS OF THE ARTIST -->
+      <div id="artist-songs">
+        <div class="song-info">
+          <div class="song-details">
+            <span>01</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Shape Of You</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div style="position: relative; right: 150px;">4:44</div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="song-info">
+          <div class="song-details">
+            <span>02</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Shivers</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="song-info">
+          <div class="song-details">
+            <span>03</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Photograph</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="song-info">
+          <div class="song-details">
+            <span>04</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Perfect</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="song-info">
+          <div class="song-details">
+            <span>05</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Bad Habits</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="song-info">
+          <div class="song-details">
+            <span>06</span>
+            <span
+              ><img
+                class="artist-image"
+                src="images/ED-SHEERAN.jpg"
+                alt="shape of you"
+            /></span>
+            <span class="song-singer">
+              <span><b>Afterglow</b></span>
+              <span class="grey">Ed Sheeran</span>
+            </span>
+          </div>
+          <div class="like-add">
+            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ASIDE SECTION -->
+    <aside class="aside-section">
+      <div class="similar-artists">
+        <h2>Similar Artists</h2>
+        <span class="view-all">View All</span>
+        <div class="artist">
+          <span
+            ><img
+              class="sim-art-img"
+              src="images/ARIJIT-SINGH.jpg"
+              alt="ARIJIT-SINGH"
+          /></span>
+          <span class="artist-name">
+            <span><b>Arijit Singh</b></span>
+            <span class="grey">Bollywood Singer</span>
+          </span>
+          <span class="duration">
+            <span style="font-size: 1.3rem;"
+              ><i class="fa-solid fa-ellipsis"></i
+            ></span>
+            <span>4:45</span>
+          </span>
+        </div>
+
+        <div class="artist">
+          <span
+            ><img class="sim-art-img" src="images/ZAYN.jpg" alt="Zayn"
+          /></span>
+          <span class="artist-name">
+            <span><b>Zayn</b></span>
+            <span class="grey">British Singer</span>
+          </span>
+          <span class="duration">
+            <span style="font-size: 1.3rem;"
+              ><i class="fa-solid fa-ellipsis"></i
+            ></span>
+            <span>3:24</span>
+          </span>
+        </div>
+
+        <div class="artist">
+          <span
+            ><img
+              class="sim-art-img"
+              src="images/CHARLIE.jpg"
+              alt="Charlie Puth"
+          /></span>
+          <span class="artist-name">
+            <span><b>Charlie Puth</b></span>
+            <span class="grey">American Singer</span>
+          </span>
+          <span class="duration">
+            <span style="font-size: 1.3rem;"
+              ><i class="fa-solid fa-ellipsis"></i
+            ></span>
+            <span>2:59</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- RECENTLY PLAYED -->
+      <div class="recently-played">
+        <span class="view-all">View All</span>
+        <h2>Recently Played</h2>
+        <div class="rec-pl-songs">
+          <div class="recent-song">
+            <div class="rec-song-details">
+              <span>01</span>
+              <span
+                ><img
+                  class="rec-pl-img"
+                  src="images/in-the-stars.jpg"
+                  alt="in-the-stars"
+              /></span>
+              <span class="rec-song-artist">
+                <span><b>In The Stars</b></span>
+                <span class="grey">Benson Boone</span>
+              </span>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="recent-song">
+            <div class="rec-song-details">
+              <span>02</span>
+              <span
+                ><img
+                  class="rec-pl-img"
+                  src="images/arijit.jpg"
+                  alt="ARIJIT-SINGH"
+              /></span>
+              <span class="rec-song-artist">
+                <span><b>Tum Hi Ho</b></span>
+                <span class="grey">Arijit Singh</span>
+              </span>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="recent-song">
+            <div class="rec-song-details">
+              <span>03</span>
+              <span
+                ><img
+                  class="rec-pl-img"
+                  src="images/annemarie.jpg"
+                  alt="Anne Marie"
+              /></span>
+              <span class="rec-song-artist">
+                <span><b>Rockabye</b></span>
+                <span class="grey">Anne Marie</span>
+              </span>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="recent-song">
+            <div class="rec-song-details">
+              <span>04</span>
+              <span
+                ><img class="rec-pl-img" src="images/salamat.jpg" alt="Salamat"
+              /></span>
+              <span class="rec-song-artist">
+                <span><b>Salamat</b></span>
+                <span class="grey">Arijit Singh</span>
+              </span>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+          </div>
+
+          <div class="recent-song">
+            <div class="rec-song-details">
+              <span>05</span>
+              <span
+                ><img
+                  class="rec-pl-img"
+                  src="images/justin.jpg"
+                  alt="Justin Bieber"
+              /></span>
+              <span class="rec-song-artist">
+                <span><b>Ghost</b></span>
+                <span class="grey">Justin Bieber</span>
+              </span>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
